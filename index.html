@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!-- Ini navbar wok -->
+    <nav class="navbar navbar-expand-lg navbar-light border border-2">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand fw-bold fs-5" href="#">I LOVE PDF</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="icons/icons-ilovepdf.svg" width="35%" height="30vh" alt="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="fw-bold nav-link mx-3" href="#">MERGE PDF</a></li>
+                <li class="nav-item"><a class="fw-bold nav-link mx-3" href="#">SPLIT PDF</a></li>
+                <li class="nav-item"><a class="fw-bold nav-link mx-3" href="#">KOMPRES PDF</a></li>
+                <li class="nav-item dropdown">
+                <a class="mx-3 fw-bold nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    CONVERTER PDF
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown-1">
+                    <li><a class="fw-bold dropdown-item" href="#">CONVERTER TO PDF</a></li>
+                    <li><a class="fw-bold dropdown-item" href="#">CONVERTER FORM PDF</a></li>
+                    <li><a class="fw-bold dropdown-item" href="#">etc</a></li>
+                </ul>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="mx-3 fw-bold nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ALL PDF TOOLS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+                    <li><a class="fw-bold dropdown-item" href="#">ORGANIZE PDF</a></li>
+                    <li><a class="fw-bold dropdown-item" href="#">OPTIMIZE PDF</a></li>
+                    <li><a class="fw-bold dropdown-item" href="#">CONVERTER TO PDF</a></li>
+                    <li><a class="fw-bold dropdown-item" href="#">CONVERTER FORM PDF</a></li>
+                    <li><a class="fw-bold dropdown-item" href="#">EDIT PDF</a></li>
+                    <li><a class="fw-bold dropdown-item" href="#">PDF SECURITY</a></li>
+                    <li><a class="fw-bold dropdown-item" href="#">PDF INTELLIGENCE</a></li>
+                </ul>
+                </li>
+            </ul>
+
+            </div>
+
+            <form class="d-flex">
+                <button type="button" class="fw-bold mx-1 btn">Login</button>
+                <button type="button" class="fw-bold mx-1 btn btn-danger">Sign Up</button>
+                <button class="app-launcher mx-3" aria-label="App Launcher">
+                    <span class="mx-1"></span>
+                    <span class="mx-1"></span>
+                    <span class="mx-1"></span>
+                    <span class="mx-1"></span>
+                    <span class="mx-1"></span>
+                    <span class="mx-1"></span>
+                    <span class="mx-1"></span>
+                    <span class="mx-1"></span>
+                    <span class="mx-1"></span>
+                </button>
+
+            </form>
+        </div>
+    </nav>
+
+    <div class="main">
+        <!-- Ini Header Wok-->
+        <header class="px-4 py-3 text-center bg-light">
+        <h1 class="fw-bold">Every tool you need to work with PDFs in one place</h1>
+        <p class="w-75 w-md-75 m-auto lead mb-4 text-secondary fw-medium">Every tool you need to use PDFs, at your fingertips. All are 100% FREE and easy to use! Merge, split, compress, convert, rotate, unlock and watermark PDFs with just a few clicks.</p>
+
+        <div class="d-inline">
+            <button type="button" class="fw-bold my-2 btn btn-dark rounded-pill px-3">All</button>
+            <button type="button" class="fw-bold my-2 text-secondary btn btn-light rounded-pill border border-secondary-subtle">Workflows</button>
+            <button type="button" class="fw-bold my-2 text-secondary btn btn-light rounded-pill border border-secondary-subtle">Organize PDF</button>
+            <button type="button" class="fw-bold my-2 text-secondary btn btn-light rounded-pill border border-secondary-subtle">Optimize PDF</button>
+            <button type="button" class="fw-bold my-2 text-secondary btn btn-light rounded-pill border border-secondary-subtle">Convert PDF</button>
+            <button type="button" class="fw-bold my-2 text-secondary btn btn-light rounded-pill border border-secondary-subtle">Edit PDF</button>
+            <button type="button" class="fw-bold my-2 text-secondary btn btn-light rounded-pill border border-secondary-subtle">PDF Security</button>
+            <button type="button" class="fw-bold my-2 text-secondary btn btn-light rounded-pill border border-secondary-subtle">PDF Intelligence</button>
+        </div>
+
+        <div class="container-fluid d-flex flex-wrap justify-content-start py-4 text-center">
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="card m-1" style="width: 15rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-image-fill mx-auto" viewBox="0 0 16 16">
+            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg>
+            <div class="card-body text-start">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+
+        </div>
+        </header>
+
+        <!-- Content -->
+        <div class="elemen-container my-5">
+            <div class="elemen-header text-center">
+                <h1 class="fw-bold">Work you way</h1>
+            </div>
+            <div class="elemen-body mt-5">
+                <div class="container-fluid w-96 d-flex flex-wrap justify-content-between gap-1">
+                    <div class="card rounded-4" style="width: 26rem;">
+                    <img src="icons/content-1.webp" class="bg-pink card-img-top rounded-top-4" alt="...">
+                    <div class="card-body p-4">
+                        <h5>Work offline with Desktop</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <div class="arrow w-100 text-end">
+                            <button type="button" class="btn icon">
+                                <i class="bi bi-arrow-up-short style-icons"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card rounded-4" style="width: 26rem;">
+                    <img src="icons/content-2.webp" class="bg-pink card-img-top rounded-top-4" alt="...">
+                    <div class="card-body p-4">
+                        <h5>On-the-go with Mobile</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <div class="arrow w-100 text-end">
+                            <button type="button" class="btn icon">
+                                <i class="bi bi-arrow-up-short style-icons"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card rounded-4" style="width: 26rem;">
+                    <img src="icons/content-3.webp" class="bg-pink card-img-top rounded-top-4" alt="...">
+                    <div class="card-body p-4">
+                        <h5>Built for business</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <div class="arrow w-100 text-end">
+                            <button type="button" class="btn icon">
+                                <i class="bi bi-arrow-up-short style-icons bg-hover"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 1 -->
+        <section class="container-fluid mt-10">
+            <div class="rounded-5 bg-pink ">
+                <div class="section-body ml-6 vh-90 position-absolute d-inline-block align-content-center">
+                    <h3 class="my-5 fs-1 fw-bold">Get more with Premium</h3>
+                    <ul class="my-5 list-unstyled">
+                        <li class="my-3">
+                            <i class="bi bi-check2-circle text-success fs-5"></i>
+                            Get full access to iLovePDF and work offline with Desktop</li>
+                        <li class="my-3"> 
+                            <i class="bi bi-check2-circle text-success fs-5"></i>
+                            Edit PDFs, get advanced OCR for scanned documents and request secure e-Signatures</li>
+                        <li class="my-3"> 
+                            <i class="bi bi-check2-circle text-success fs-5"></i>
+                            Connect tools and create custom workflows</li>
+                    </ul>
+                    <button type="button" class="btn btn-warning w-25 fw-bold">
+                        <img src="icons/sharp-crown.svg" width="15%" alt="" srcset="">
+                        Get Premium</button>
+                </div>
+                <div class="section-body text-end">
+                    <img src="icons/section-premium.webp" class="" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="container-fluit my-5">
+            <div class="container-body mx-3">
+                <div class="body-card">
+                    <div class="row">
+                        <div class="col-5">
+                            <img src="icons/section-2.webp" alt="" srcset="">
+                        </div>
+                        <div class="col-7 text-start d-inline-block align-content-center">
+                            <h2>Image editing made simple with iLoveIMG</h2>
+                            <p>Experience the speed, simplicity, and security you expect from iLovePDF tailored for image editing. Compress, resize, and enhance your images with AI.</p>
+                            <button type="button" class="btn text-danger border border-danger fw-bold">Go to iLoveIMG</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section>
+            <div class="container mt-custom-1 mb-custom-1">
+                <div class="card-1 text-center">
+                    <h2 class="fw-bold">The PDF software trusted by millions of users</h2>
+                    <p>iLovePDF is your number one web app for editing PDF with ease. Enjoy all the tools you need to work efficiently with your digital documents while keeping your data safe and secure.</p>
+                </div>
+                <div class="card-2 text-center mt-5">
+                    <img src="icons/card-body-iso.svg" width="6%" class="mx-5" alt="" srcset="">
+                    <img src="icons/card-body-ssl.svg" width="6%" class="mx-5" alt="" srcset="">
+                    <img src="icons/card-body-pdf.svg" width="6%" class="mx-5" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Body Footer -->
+    <footer class="bg-dark text-light">
+        <div class="container-lg">
+            <div class="row pt-5">
+                <div class="col-2">
+                    <h6 class="fw-bold">PRODUCT</h6>
+                    <ul class="list-unstyled">
+                        <li>Home</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>Tools</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h6 class="fw-bold">RESOURCES</h6>
+                    <ul class="list-unstyled">
+                        <li>iLovePDF Desktop</li>
+                        <li>iLovePDF Mobile</li>
+                        <li>iLoveSign</li>
+                        <li>iLoveAPI</li>
+                        <li>iLoveIMG</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h6 class="fw-bold">SOLUTIONS</h6>
+                    <ul class="list-unstyled">
+                        <li>Business</li>
+                        <li>Education</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h6 class="fw-bold">LEGAL</h6>
+                    <ul class="list-unstyled">
+                        <li>Security</li>
+                        <li>Privacy policy</li>
+                        <li>Terms & conditions</li>
+                        <li>Cookies</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h6 class="fw-bold">COMPANY</h6>
+                    <ul class="list-unstyled">
+                        <li>About us</li>
+                        <li>Contact us</li>
+                        <li>Blog</li>
+                        <li>Press</li>
+                    </ul>
+                </div>
+                <div class="col-2 mb-5">
+                    <ul class="list-unstyled">
+                        <li><button type="button" class="w-100 mb-2 btn btn-outline-light">
+                            <i class="bi bi-google-play"></i>
+                            Google Play
+                        </button></li>
+                        <li><button type="button" class="w-100 my-2 btn btn-outline-light">
+                            <i class="bi bi-apple"></i>
+                            App Store
+                        </button></li>
+                        <li><button type="button" class="w-100 my-2 btn btn-outline-light">
+                            <i class="bi bi-apple"></i>
+                            Mac App Store
+                        </button></li>
+                        <li><button type="button" class="w-100 mt-2 btn btn-outline-light">
+                            <i class="bi bi-microsoft"></i>
+                            Microsoft Store
+                        </button></li>
+                    </ul>
+                </div><hr>
+            </div>
+            <div class="card-body d-flex justify-content-between pb-5">
+                <button type="button" class="btn btn-outline-light">
+                    <i class="bi bi-globe"></i>
+                    English
+                </button>
+                <div class="card-element d-flex">
+                    <div class="element mx-5">
+                        <ul class="list-unstyled d-flex gap-4">
+                            <li><i class="text-dark-emphasis bi bi-twitter-x"></i></li>
+                            <li><i class="text-dark-emphasis bi bi-facebook"></i></li>
+                            <li><i class="text-dark-emphasis bi bi-linkedin"></i></li>
+                            <li><i class="text-dark-emphasis bi bi-instagram"></i></li>
+                            <li><i class="text-dark-emphasis bi bi-tiktok"></i></li>
+                            <li><i class="text-dark-emphasis bi bi-reddit"></i></li>
+                        </ul>
+                    </div>
+                    <h6 class="fs-6 text-dark-emphasis">&copy; iLovePDF 2026 - Your PDF Editor</>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
